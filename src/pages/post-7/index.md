@@ -1,7 +1,7 @@
 ---
 path: "/analysis-of-bajaj-capital-microservices-architecture/"
 category: "javascript"
-tags: ["javascript","es6"]
+tags: ["case-study","microservices"]
 title: "Digital Tranformation Case Study of Bajaj Capital"
 date: "2019-04-09"
 summary: "A comprehensive system design analysis of microservices architecture at Bajaj Capital Ltd to power its Financial Services in India...."
@@ -33,7 +33,7 @@ Because of the digitalization many of the customers now prefer buying mutual fun
 Bajaj capital has network of multiple branches in all over india.So Mazor of the business comes through B2B channel.So they decided to tranform their existing system to scale that application to serve more customers all over India.Bajaj capital already has a website , but it needs a back-end application to process and store information on Customer,funds and orders.
 
 ## Solution - 1
-So they begin their Tranformation Journey with three tier application.This solution uses ASP.net as a server-side language and setup a database in the same database(most likely MYSQL).
+So they begin their Transformation Journey with three tier application.This solution uses ASP.net as a server-side language and setup a database in the same database(most likely MYSQL).
 
 A Typical Solution would have its code structured in a few layers resembling a three-tier architecture, meaning that the code is split into presentational,business, and data tiers or layers.
 
@@ -43,7 +43,7 @@ A Typical Solution would have its code structured in a few layers resembling a t
 > computer data storage and data access are developed and maintained as
 > independent modules, most often on separate platforms.
 
-Fig - 1
+![Fig 1.1](https://notes-uploading.s3.ap-south-1.amazonaws.com/post-7-1.png)
 
 To learn more about three-tier architecture, visit https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture.
 
@@ -53,7 +53,8 @@ But to be able to scale a monolithic application, it’s necessary to detach the
 
 After that, your application would look like the one shown in figure 1.2. 
 
-Fig 1.2
+![Fig 1.2](https://notes-uploading.s3.ap-south-1.amazonaws.com/post-7-3.png)
+
 
 But you’d still have one conglomerate of an application with all its API routes and the business logic for everything. 
 Your application could be replicated if you had too many users, but each instance would have all its services replicated as well, regardless of their usage.
@@ -61,8 +62,11 @@ Your application could be replicated if you had too many users, but each instanc
 ### Serverless Approach : 
 
 Creating serverless applications requires a different approach, as these applications are event-driven and fully distributed.
-Instead of having one server with the API endpoints and your business logic, each part of your application is isolated 
-to independent and autoscalable containers.
+Instead of having one server with the API endpoints and your business logic, each part of your application is isolated to independent and autoscalable containers.
+
+
+![Fig 1.1](https://notes-uploading.s3.ap-south-1.amazonaws.com/post-7-4.png)
+
 
 In a serverless application, your requests are processed with an API router layer that has only one job: 
 it accepts HTTP requests and routes them to the underlying business layer services.
@@ -89,7 +93,7 @@ Backend Infrastructure includes services databases, storages running entirely on
  4. Business logic microservices
  5. Scalable distributed databases (AWS DynamoDB, AWS Aurora)
 
-Fig AWS
+![AWS Infra](https://notes-uploading.s3.ap-south-1.amazonaws.com/blog-7-5.png)
 
 **API Gateway Service** : API Gateway Service communicates with AWS Load Balancers to resolve all requests from Clients.This component can be deployed to multiple EC2 instances across  to increase availbility.
 
