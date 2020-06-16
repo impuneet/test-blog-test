@@ -1,5 +1,5 @@
 ---
-path: "/arrow-functions-in-js/"
+path: "/analysis-of-bajaj-capital-microservices-architecture/"
 category: "javascript"
 tags: ["javascript","es6"]
 title: "Digital Tranformation Case Study of Bajaj Capital"
