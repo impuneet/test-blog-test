@@ -1,11 +1,11 @@
 ---
 path: "/analysis-of-bajaj-capital-microservices-architecture/"
-category: "javascript"
+category: "case-study"
 tags: ["case-study","microservices"]
 title: "Digital Tranformation Case Study of Bajaj Capital"
 date: "2019-04-09"
 summary: "A comprehensive system design analysis of microservices architecture at Bajaj Capital Ltd to power its Financial Services in India...."
-images: ["images/1.jpg"]
+images: ["images/4.jpg"]
 ---
 
 
@@ -43,7 +43,7 @@ A Typical Solution would have its code structured in a few layers resembling a t
 > computer data storage and data access are developed and maintained as
 > independent modules, most often on separate platforms.
 
-![Fig 1.1](https://notes-uploading.s3.ap-south-1.amazonaws.com/post-7-1.png)
+![Kitten](./../../resources/images/post-7-2.png)
 
 To learn more about three-tier architecture, visit https://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture.
 
@@ -51,9 +51,9 @@ This approach fits perfectly for any given small application. It would work fine
 
 But to be able to scale a monolithic application, it’s necessary to detach the data layer (because you don’t want to replicate your database, for the sake of data consistency).
 
-After that, your application would look like the one shown in figure 1.2. 
+After that, your application would look like the one shown in figure 1.3. 
 
-![Fig 1.2](https://notes-uploading.s3.ap-south-1.amazonaws.com/post-7-3.png)
+![Fig 1.3](./../../resources/images/post-7-3.png)
 
 
 But you’d still have one conglomerate of an application with all its API routes and the business logic for everything. 
@@ -63,9 +63,6 @@ Your application could be replicated if you had too many users, but each instanc
 
 Creating serverless applications requires a different approach, as these applications are event-driven and fully distributed.
 Instead of having one server with the API endpoints and your business logic, each part of your application is isolated to independent and autoscalable containers.
-
-
-![Fig 1.1](https://notes-uploading.s3.ap-south-1.amazonaws.com/post-7-4.png)
 
 
 In a serverless application, your requests are processed with an API router layer that has only one job: 
@@ -93,7 +90,7 @@ Backend Infrastructure includes services databases, storages running entirely on
  4. Business logic microservices
  5. Scalable distributed databases (AWS DynamoDB, AWS Aurora)
 
-![AWS Infra](https://notes-uploading.s3.ap-south-1.amazonaws.com/blog-7-5.png)
+![AWS Infra](./../../resources/images/blog-7-5.png)
 
 **API Gateway Service** : API Gateway Service communicates with AWS Load Balancers to resolve all requests from Clients.This component can be deployed to multiple EC2 instances across  to increase availbility.
 

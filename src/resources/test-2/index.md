@@ -8,10 +8,11 @@ images: [
 ]
 ---
 
-# Gatsby Advanced Blog
+# Outgrow by Venturepact
 
 ## What I did
-- Develop Gatsby Advanced Blog
+- Integration of the product to marketing CRM like Hubspot, Marketo, Salesforce, Pardot etc.
+- Defining process of development and execution.
 
 ## Libraries / Tools
 - NodeJS

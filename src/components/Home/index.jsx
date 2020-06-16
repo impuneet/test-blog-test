@@ -62,9 +62,9 @@ with the world. This website has no bullshit, no ads, no sponsored posts, and no
       </div>
     </Wrapper>
     <PostsWrapper>
+      <ListPost key="http://localhost:8000/analysis-of-bajaj-capital-microservices-architecture/" path="analysis-of-bajaj-capital-microservices-architecture/" tags="" image="A comprehensive system design analysis of microservices architecture at Bajaj Capital Ltd to power its Financial Services in India." title="Design analysis of Microservices Architecture at Bajaj Capital" />
       <ListPost key="http://localhost:8000/authorization-in-nodejs/" path="authorization-in-nodejs/" tags="" image="JSON Web Token (JWT) is an open standard that defines a compact and self-contained way of securely transmitting information between parties as a JSON object" title="Authentication &amp; Authorization in Nodejs " />
       <ListPost key="http://localhost:8000/post-3/" path="post-3/" tags="" image="Node js Security measurements : Threats in API : DOS Attacks, XSS, SQL/NoSQL Injection Attacks" title="Security Measurement in Node js" />
-      <ListPost key="http://localhost:8000/design-pattern-in-javascript/" path="design-pattern-in-javascript/" tags="" image="In handling large-scale JavaScript applications, we need to manage the code accordingly. While devising the architecture for your large-scale application, it’s important to think ahead." title="Design Patterns in JavaScript, Part 1" />
     </PostsWrapper>
     <PostsWrapper>
       <CardCat key="1" path="/categories/nodejs/1" tags="" image="images/nodejs.png" title="NodeJS" />

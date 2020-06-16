@@ -9,7 +9,7 @@ exports.PROJECT = 'project';
 // Site Information
 exports.NAME = 'iampuneet';
 exports.TITLE = 'Fintech Full Stack Developer';
-exports.PREFIX = 'FINTECH | ';
+exports.PREFIX = 'iampuneet | ';
 exports.DESCRIPTION = 'DevOps Engineer and Senior JavaScript Developer (Serverless , Node JS, React ) in Bajaj Capital (FinTech)';
 exports.AUTHOR = 'Puneet Sharma';
 exports.EMAIL = 'iampuneet.in@gmail.com';
@@ -27,4 +27,4 @@ exports.FACEBOOK_ID = 'Puneetrock';
 exports.LINKEDIN_ID = 'puneet-sharma-888-ps';
 
 // Disqus (Recommend you to use this)
-exports.DISQUS_ID = 'sample';
+exports.DISQUS_ID = 'http-iampuneet-in';

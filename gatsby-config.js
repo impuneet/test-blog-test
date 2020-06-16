@@ -56,7 +56,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: '<<YOUR_OWN_KEY>>',
+        trackingId: 'UA-155135587-1',
       },
     },
     'gatsby-plugin-offline',
@@ -66,8 +66,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gatsby Advanced Blog',
-        short_name: 'Gatsby Blog',
+        name: 'Puneet Sharma',
+        short_name: 'iampuneet',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#3B9CFF',
