@@ -4,11 +4,12 @@ exports.PAGE_PER_SCREEN = 4;
 exports.POST = 'post';
 exports.PORTFOLIO = 'portfolio';
 exports.RESUME = 'resume';
+exports.PROJECT = 'project';
 
 // Site Information
 exports.NAME = 'iampuneet';
 exports.TITLE = 'Fintech Full Stack Developer';
-exports.PREFIX = 'WONISM | ';
+exports.PREFIX = 'FINTECH | ';
 exports.DESCRIPTION = 'DevOps Engineer and Senior JavaScript Developer (Serverless , Node JS, React ) in Bajaj Capital (FinTech)';
 exports.AUTHOR = 'Puneet Sharma';
 exports.EMAIL = 'iampuneet.in@gmail.com';

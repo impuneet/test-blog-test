@@ -9,6 +9,7 @@ const {
   POST,
   PORTFOLIO,
   RESUME,
+  PROJECT,
 } = require('./src/constants');
 
 exports.onCreateWebpackConfig = ({
@@ -43,6 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
     const taggedList = path.resolve('./src/templates/TaggedList.jsx');
     const categorizedList = path.resolve('./src/templates/CategorizedList.jsx');
     const resume = path.resolve('./src/templates/Resume.jsx');
+    const project = path.resolve('./src/templates/Project.jsx');
     const portfolios = path.resolve('./src/templates/Portfolios.jsx');
     const portfolio = path.resolve('./src/templates/Portfolio.jsx');
 
@@ -90,6 +92,9 @@ exports.createPages = ({ graphql, actions }) => {
                 break;
               case RESUME:
                 component = resume;
+                break;
+              case PROJECT:
+                component = project;
                 break;
               case POST:
               default:

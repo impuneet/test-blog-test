@@ -48,6 +48,7 @@
         height: 150px;
         img {
             position: relative;
+            border-radius: 60px;
             display: block;
             margin: 0 auto;
             object-fit: contain;
@@ -89,7 +90,7 @@
     }
     .form__input {
         padding: 5px 10px;
-        width: calc(100% - 60px);
+        width: calc(100% - 40px);
         height: 45px;
         border-radius: 10px;
         border: 1px solid #ddd;
@@ -108,7 +109,7 @@
     .form__submit {
         cursor: pointer;
         position: absolute;
-        right: 80px;
+        right: 60px;
         border: none;
         background-image: linear-gradient( to right bottom, #e9d133, #eacc2c, #eac724, #ebc11c, #ebbc12 );
         color: #fff;

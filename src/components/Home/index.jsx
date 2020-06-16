@@ -67,8 +67,8 @@ with the world. This website has no bullshit, no ads, no sponsored posts, and no
       <ListPost key="http://localhost:8000/design-pattern-in-javascript/" path="design-pattern-in-javascript/" tags="" image="In handling large-scale JavaScript applications, we need to manage the code accordingly. While devising the architecture for your large-scale application, it’s important to think ahead." title="Design Patterns in JavaScript, Part 1" />
     </PostsWrapper>
     <PostsWrapper>
-      <CardCat key="1" path="/categories/nodejs/1" tags="" image="images/js.png" title="NodeJS" />
-      <CardCat key="2" path="/categories/design-pattern/1" tags="" image="images/js.png" title="Design Pattern" />
+      <CardCat key="1" path="/categories/nodejs/1" tags="" image="images/nodejs.png" title="NodeJS" />
+      <CardCat key="2" path="/categories/design-pattern/1" tags="" image="images/design.jpeg" title="Design Pattern" />
       <CardCat key="3" path="/categories//javascript/1" tags="" image="images/js.png" title="Javascript" />
     </PostsWrapper>
 

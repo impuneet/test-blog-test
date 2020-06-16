@@ -116,7 +116,8 @@ const Gnb = ({
   const isPortfolio = pathname.replace(/\/$/, '').startsWith('/portfolios');
   const isHome = pathname.replace(/\/$/, '') === '';
   const isResume = pathname.replace(/\/$/, '') === '/resume';
-  const isPost = !(isPortfolio || isHome || isResume);
+  const isProject = pathname.replace(/\/$/, '') === '/project';
+  const isPost = !(isPortfolio || isHome || isResume || isProject);
 
   return (
     <GnbWrapper>
@@ -176,6 +177,11 @@ const Gnb = ({
             <ListMenu>
               <StyledLink to="/resume" className={isResume ? 'active' : ''} onClick={toggleMenu}>
                 Profile
+              </StyledLink>
+            </ListMenu>
+            <ListMenu>
+              <StyledLink to="/project" className={isProject ? 'active' : ''} onClick={toggleMenu}>
+                Projects
               </StyledLink>
             </ListMenu>
             <SearchBarWrapper>
@@ -276,6 +282,11 @@ const Gnb = ({
         <ListMenu>
           <StyledLink to="/resume" className={isResume ? 'active' : ''}>
             Profile
+          </StyledLink>
+        </ListMenu>
+        <ListMenu>
+          <StyledLink to="/project" className={isProject ? 'active' : ''}>
+            Projects
           </StyledLink>
         </ListMenu>
       </List>

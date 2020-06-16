@@ -62,12 +62,13 @@ export const StyledArticle = styled.article`
 
   a {
     color: ${({ theme: { color } }) => color};
-
+    text-align: center;
     &:hover {
       h3,
       p,
       small {
         text-decoration: underline;
+        text-align: center;
       }
     }
   }

@@ -15,7 +15,7 @@ const ListPost = ({
         <ul>
           <li>
             <div className={styles.info}>
-              <h3>{title}</h3>
+              <h1>{title}</h1>
               <p>{image}</p>
             </div>
           </li>

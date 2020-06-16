@@ -7,9 +7,9 @@ import { PREFIX, AUTHOR, EMAIL, GITHUB_ID, TWITTER_ID, FACEBOOK_ID, LINKEDIN_ID 
 import * as profileUrl from '~/resources/me.png';
 import { Wrapper, BasicInformation, SocialInformation, MDInformation, Button } from './styled';
 
-const Resume = ({
+const Project = ({
   data: {
-    resume: {
+    project: {
       html,
     },
   },
@@ -38,62 +38,28 @@ const Resume = ({
       <Clearfix>
         <Helmet>
           <title>
-            {`${PREFIX}RESUME`}
+            {`${PREFIX}PROJECTS`}
           </title>
-          <meta name="og:title" content={`${PREFIX}RESUME`} />
+          <meta name="og:title" content={`${PREFIX}PROJECTS`} />
         </Helmet>
         <BasicInformation>
-          <img
-            src="https://notes-uploading.s3.ap-south-1.amazonaws.com/download.png"
-            alt=""
-            width="120"
-            height="120"
-          />
-          <h1>
-            {AUTHOR}
-          </h1>
+          <a target="_BLANK" href="https://github.com/impuneet">
+            {' '}
+            <img
+              src={profileUrl.default}
+              alt=""
+              width="120"
+              height="120"
+            />
+            {' '}
+
+          </a>
+
+
           <p>
-            {EMAIL}
+            <a target="_BLANK" href="https://github.com/impuneet"> impuneet </a>
           </p>
         </BasicInformation>
-        <SocialInformation>
-          {GITHUB_ID ? (
-            <a
-              href={`https://github.com/${GITHUB_ID}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaGithub />
-            </a>
-          ) : null}
-          {TWITTER_ID ? (
-            <a
-              href={`https://twitter.com/${TWITTER_ID}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaTwitter />
-            </a>
-          ) : null}
-          {FACEBOOK_ID ? (
-            <a
-              href={`https://www.facebook.com/${FACEBOOK_ID}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaFacebook />
-            </a>
-          ) : null}
-          {LINKEDIN_ID ? (
-            <a
-              href={`https://www.linkedin.com/in/${LINKEDIN_ID}/`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaLinkedin />
-            </a>
-          ) : null}
-        </SocialInformation>
         <MDInformation>
           <div
             ref={$mdWrapper}
@@ -105,8 +71,8 @@ const Resume = ({
   );
 };
 
-Resume.propTypes = {
+Project.propTypes = {
   data: PropTypes.shape({ date: PropTypes.object }).isRequired,
 };
 
-export default Resume;
+export default Project;
