@@ -4,7 +4,7 @@ category: "javascript"
 tags: ["javascript","es6"]
 title: "Digital Tranformation Case Study of Bajaj Capital"
 date: "2019-04-09"
-summary: "Arrow function is the most powerful feature in ES6, especially in typescript.Like, look into one simple statement forEach.Normal Statement with a callback function..."
+summary: "A comprehensive system design analysis of microservices architecture at Bajaj Capital Ltd to power its Financial Services in India...."
 images: ["images/1.jpg"]
 ---
 
