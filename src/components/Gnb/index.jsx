@@ -181,7 +181,7 @@ const Gnb = ({
             </ListMenu>
             <ListMenu>
               <StyledLink to="/project" className={isProject ? 'active' : ''} onClick={toggleMenu}>
-                Projects
+                Open Source
               </StyledLink>
             </ListMenu>
             <SearchBarWrapper>
@@ -286,7 +286,7 @@ const Gnb = ({
         </ListMenu>
         <ListMenu>
           <StyledLink to="/project" className={isProject ? 'active' : ''}>
-            Projects
+            Open Source
           </StyledLink>
         </ListMenu>
       </List>
