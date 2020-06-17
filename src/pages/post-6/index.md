@@ -5,7 +5,7 @@ tags: ["javascript","es6"]
 title: "Arrow functions in ES6"
 date: "2019-04-09"
 summary: "Arrow function is the most powerful feature in ES6, especially in typescript.Like, look into one simple statement forEach.Normal Statement with a callback function..."
-images: ["images/1.jpg"]
+images: ["images/6.png"]
 ---
 
 <strong>Arrow function</strong>  is the most powerful feature in ES6, especially in typescript.Like, look into one simple statement forEach.

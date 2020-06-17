@@ -5,7 +5,7 @@ tags: ["nodejs",streams]
 title: "Understanding Streams in Node JS"
 date: "2018-01-04T00:00:00.000Z"
 summary: "Nodejs allows us to pipeline our tasks with the help of streams.Hence Node js works on single thread but this does not means we can not do two tasks or process at a time.This can be done via Child Processes in NodeJs...."
-images: ["images/1.jpg"]
+images: ["images/4.png"]
 
 ---
 

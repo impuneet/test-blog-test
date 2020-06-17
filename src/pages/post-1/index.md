@@ -5,7 +5,7 @@ tags: ["javascript", "design-pattern" , "nodejs"]
 title: "Design Patterns in JavaScript, Part 1"
 date: "2018-11-24T00:00:00.000Z"
 summary: "In handling large-scale JavaScript applications, we need to manage the code accordingly. While devising the architecture for your large-scale application, it's important to think ahead...."
-images: ["images/1.jpg"]
+images: ["images/5.png"]
 
 ---
 

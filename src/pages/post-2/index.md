@@ -5,7 +5,7 @@ tags: ["nodejs","security"]
 title: "Authorization & Authentication in Node JS"
 date: "2020-01-27"
 summary: "JWT Token based Authorization..."
-images: ["images/1.jpg"]
+images: ["images/2.png"]
 ---
 
 This article will focus only on the usage of JWT for providing authentication for our REST APIs.

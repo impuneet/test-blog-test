@@ -5,7 +5,7 @@ tags: ["nodejs"]
 title: "Structuring Your Node JS Application"
 date: "2019-04-09"
 summary: "A Very little Design and Architecture knowledge are spread around NODEJS eco-system. You already know about MVC but MVC here can be delivery mechanism,not an application architecture...."
-images: ["images/1.jpg"]
+images: ["images/3.png"]
 ---
 
 A Very little Design and Architecture knowledge are spread around NODEJS eco-system. You already know about MVC but MVC here can be delivery mechanism,not an application architecture.Most of the Applications in NODEJS follows this pattern then what\'s wrong in that ?

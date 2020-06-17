@@ -4,8 +4,8 @@ category: "nodejs"
 tags: ["nodejs","security"]
 title: "Security Measurement in Node js"
 date: "2020-01-27"
-summary: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-images: ["images/1.jpg"]
+summary: "DOS Attack will crash / shut down a network, or machine, making it inaccessible. Which means users won’t be able to access your application,for example."
+images: ["images/1.png"]
 ---
 
 Node js Security measurements : 
