@@ -66,8 +66,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Puneet Sharma',
-        short_name: 'iampuneet',
+        name: 'Gatsby Advanced Blog',
+        short_name: 'Gatsby Blog',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#3B9CFF',
