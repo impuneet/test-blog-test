@@ -19,6 +19,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 426847,
+        sv: 6
+      },
+    },
+    {
       resolve: `gatsby-plugin-sharp`,
       options: {
         useMozJpeg: false,
