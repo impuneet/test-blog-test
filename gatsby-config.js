@@ -18,7 +18,14 @@ module.exports = {
         name: 'pages',
       },
     },
-
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
