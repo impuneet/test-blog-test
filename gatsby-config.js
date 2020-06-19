@@ -59,6 +59,13 @@ module.exports = {
         trackingId: 'UA-155135587-1',
       },
     },
+    {
+      resolve: 'gatsby-plugin-hotjar',
+      options: {
+        id: 426847,
+        sv: 6,
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
