@@ -1,8 +1,8 @@
 ---
 path: "/secure-your-env/"
-category: "case-study"
+category: "nodejs"
 tags: ["microservices", "nodejs"]
-title: "Secure secrets of .env with Mozilla SOPS & Keybase"
+title: "Secure secrets with Mozilla SOPS & Keybase"
 date: "2021-08-08"
 summary: "You can use SOPS to store encrypted secrets in Git, using AWS/GCP KMS to encrypt/decrypt them (or encrypt/decrypt the encryption key) and have infrastructure automation that gets the secrets from sops and exposes them to applications as environemnt variables "
 images: ["images/4.jpg"]
