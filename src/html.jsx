@@ -45,6 +45,7 @@ export default class HTML extends Component {
           <div key="body" id="___gatsby" dangerouslySetInnerHTML={{ __html: body }} />
           {postBodyComponents}
         </body>
+        <div style="position: relative;bottom: 0;left: 0;" id="juicier-container" data-account-id="JSV61STlYqSl0W3gJly6fp7x9tH2"><a style="font-size: 8px;color: #19191f36;text-decoration: none;" href="https://prooffactor.com" target="_blank">Powered by ProofFactor - Social Proof Notifications</a></div><script type="text/javascript" src="https://cdn.prooffactor.com/javascript/dist/1.0/jcr-widget.js?account_id=JSV61STlYqSl0W3gJly6fp7x9tH2"></script>
       </html>
     );
   }
