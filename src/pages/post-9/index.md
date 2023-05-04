@@ -84,6 +84,10 @@ Overall, the flow of events in a domain registration system should be simple, in
 
 In Domain search process, Initially the request will go from User Portal (Nuxt) to Meta Registrar Epp Application and this will require to have login connection with meta registrar so it need an interface to authorize EPP Application with username and password. 
 
+
+![Fig 1.1](./../../resources/images/post-9-2.png)
+
+
 You check a domain by sending a check->domain:check command. You can supply the domain-names in their utf-8 format.In this example we are checking icanhascheeseburger.frl and the icanhascheeseburger.eu domain for availability.
 
 ```
